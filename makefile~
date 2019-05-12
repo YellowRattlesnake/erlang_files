@@ -1,0 +1,5 @@
+numberSort.beam: numberSort.erl
+	erl -boot start_clean numberSort.erl
+clean:
+	rm sort.beam
+
